@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/../../pythonwebproject/termscore/.idea/termscore.iml" filepath="$PROJECT_DIR$/../../pythonwebproject/termscore/.idea/termscore.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/termscorepro.iml" filepath="$PROJECT_DIR$/.idea/termscorepro.iml" />
+    </modules>
+  </component>
+</project>

@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title></title>
+		<script src="/static/jquery-3.4.1.min.js"></script>
+	</head>
+	<body>
+	<center>
+		新用户注册<hr />
+		<table>
+			<tr><td align="right">用户ID:</td>
+				<td><input type="text" id="uid" maxlength="10"/><span id="ruid"></span></td>
+			</tr>
+			<tr><td align="right">密码:</td>
+				<td><input type="password" id="pwd1" maxlength="8"/></td>
+			</tr>
+			<tr><td align="right">再次输入密码:</td>
+				<td><input type="password" id="pwd2" maxlength="8"/></td>
+			</tr>
+			<tr><td align="right">Emali:</td>
+				<td><input type="email" id="email" maxlength="20"/></td>
+			</tr>
+			<tr><td align="right">验证码:</td>
+				<td><img src="/getpng/" id="icore"/>单机刷机<br /><input type="text" id="code" maxlength="10"/></td>
+			</tr>
+			<tr><td colspan="2" align="center"><input type="button" value="提交" id="submit"/></td></tr>
+		</table>
+		<hr /><span id="result"></span>
+	</center>
+	<script src="/static/tt.js"></script>
+	</body>
+</html>

@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>期末成绩录入</title>
+</head>
+<body>
+<h2>期末考试成绩录入</h2>
+<hr>
+<form action="/score/" method="post">
+    {%csrf_token%}
+    <table>
+        {{form}}
+    </table>
+    <input type="submit" value="确定">
+</form>
+<hr>
+{{msg}}
+</body>
+</html>

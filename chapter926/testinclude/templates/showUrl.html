@@ -1,0 +1,13 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>在模板中反向解析网址</title>
+</head>
+<body>
+    当前网页的URL路径：{% url 'urlTemplate' data %}<br>
+    views.getUrlKwargs 的URL的路径：{% url 'urlTemplate' 123 %}<br>
+    {% load static %}
+    <img src="{% static 'R-C.jpg' %}">
+</body>
+</html>
